@@ -259,6 +259,6 @@ function displaySelectedOperator() {
 const evaluateButtonElement = document.getElementById("evaluate-button");
 evaluateButtonElement.addEventListener("click", function () {
   const resultElement = document.createElement("h1");
-  resultElement.innerText =  firstNumber.toString() + selectedOperator + secondNumber.toString() + "=" + result.toString();
+  resultElement.innerText = firstNumber.toString() + selectedOperator + secondNumber.toString() + "=" + result.toString();
   document.body.append(resultElement);
 });
